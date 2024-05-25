@@ -50,8 +50,24 @@ const users = [
 ];
 
 // console.log(users[0].id);clg
-console.log(tinderUser);
-console.log(Object.keys(tinderUser)); //* returns all keys of tinderuser
-console.log(Object.values(tinderUser)); //* returns all values of tinderuser
-console.log(Object.entries(tinderUser)); //* returns multiple arrays of key value pairs
-console.log(tinderUser.hasOwnProperty("isLogged")); //*checks if an object has the property
+// console.log(tinderUser);
+// console.log(Object.keys(tinderUser)); //* returns all keys of tinderuser
+// console.log(Object.values(tinderUser)); //* returns all values of tinderuser
+// console.log(Object.entries(tinderUser)); //* returns multiple arrays of key value pairs
+// console.log(tinderUser.hasOwnProperty("isLogged")); //*checks if an object has the property
+
+//* destructuring
+const course = {
+  coursename: "Js in Nepali",
+  price: 999,
+  courseInstructor: "Aashey",
+};
+
+const { courseInstructor: instructor } = course; //* destructured from course
+console.log(instructor);
+
+// {
+//   "name":"James",
+//   "age":50,
+//   "address":"Texas"
+// }

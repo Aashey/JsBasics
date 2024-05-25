@@ -2,7 +2,8 @@ const name = "james"
 //or string can also be assigned in another way
 const surname = new String('Bond')
 // console.log(surname); // returns object with its type and value
-// //useful cause it provides a lots of methods for string manipulation
+
+// Some string methods examples
 // console.log(surname[0]); //B
 // console.log(surname[1]); //o
 // console.log(surname[2]); //n

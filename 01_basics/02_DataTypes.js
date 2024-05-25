@@ -23,5 +23,6 @@ let isLoggedIn = false
 // console.log(typeof null); // object
 // console.log(typeof undefined); // undefined
 
+let isLogged = true
 
 

@@ -1,4 +1,4 @@
 # JsBasics
 Js Tutorial from youtube channel
 
-Merge test
+Merge test 2

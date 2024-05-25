@@ -23,10 +23,37 @@ let student = {
 }
 
 const mixer = function(){
-console.log("Mixer");
+// console.log("Mixer");
 }
 
-console.log(typeof mixer); // function but called object function
-console.log(typeof fruits); // object
-console.log(typeof bigNumber); // function
-console.log(typeof student); // object
+// console.log(typeof mixer); // function but called object function
+// console.log(typeof fruits); // object
+// console.log(typeof bigNumber); // function
+// console.log(typeof student); // object
+
+
+
+
+/*
+Memories
+Stack used for primitive types and heap for non primitive
+When stack memory is used, you get a copy of variable 
+But in heap, you get original
+*/
+let yt = 'dazewaker'
+let anotheryt = yt
+anotheryt = 'cobra'
+console.log(anotheryt);
+console.log(yt);
+
+let user1 = {
+    email: "asdjksad@gmail.com",
+    id:123
+}
+
+let user2 = user1
+
+user2.email = 'james@gmail.com';
+console.log(user1);
+
+// see memory.png for reference

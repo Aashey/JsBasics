@@ -1,13 +1,18 @@
 "use strict"; // treat all js code as newer version
 
-// console.log(3 +
-//     3
-// ); // code readability must be high, so this is bad habit
+
+console.log(3 +
+    3
+); // code readability must be high, so this is bad habit
 
 
-let name = "Aashey"
-let age = 26
+const name = "Aashey"
+const age = 26
 let isLoggedIn = false
+const id = Symbol('123')
+const anotherId = Symbol('123')
+const bigNumber = 124125129n
+console.log(id === anotherId); // false as symbol is unique
 
 // primitive data types
 //---------------------------------------

@@ -1,5 +1,7 @@
 https://tc39.es/ecma262/
 //Ryan Dahl creator of node
+JavaScript is a dynamically-typed languages where the interpreter
+assigns variables a type at runtime based on the variable's value at the time.
 
 
 

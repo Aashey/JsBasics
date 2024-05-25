@@ -1,7 +1,7 @@
 const x =1
 let y = "Aashish"
 var z = true
-w = 'Bond' //not good habit
+w = 'James' //not good habit
 let v;
 
 // x = 2 // not alllowed

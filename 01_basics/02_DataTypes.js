@@ -8,7 +8,6 @@
 let name = "Aashey"
 let age = 26
 let isLoggedIn = false
-let isLoggedOut = true
 
 // primitive data types
 //---------------------------------------
@@ -24,6 +23,5 @@ let isLoggedOut = true
 // console.log(typeof null); // object
 // console.log(typeof undefined); // undefined
 
-let isLogged = true
 
 
